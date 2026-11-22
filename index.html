@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Trang giới thiệu bản thân của Nguyễn Bảo Quân, sinh viên Kỹ thuật phần mềm.">
+<title>Nguyễn Bảo Quân</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <button id="theme-toggle" class="btn theme-btn" type="button">Chế độ tối</button>
+
+  <header class="hero">
+    <div>
+      <h1>Nguyễn<br>Bảo Quân</h1>
+      <p class="role">Sinh viên ngành Kỹ thuật phần mềm</p>
+    </div>
+    <div class="cat-wrap">
+      <svg class="cat" viewBox="0 0 200 190" role="img" aria-label="Hình một chú mèo cam có đôi mắt nhìn theo con trỏ chuột">
+        <path class="fur" d="M30 70 L38 8 L84 40 Z"/>
+        <path class="fur" d="M170 70 L162 8 L116 40 Z"/>
+        <ellipse class="fur" cx="100" cy="112" rx="78" ry="66"/>
+        <circle class="eye-w" cx="70" cy="100" r="16"/>
+        <circle class="eye-w" cx="130" cy="100" r="16"/>
+        <circle class="ink pupil" cx="70" cy="100" r="8"/>
+        <circle class="ink pupil" cx="130" cy="100" r="8"/>
+        <path class="ink" d="M92 124 H108 L100 134 Z"/>
+        <path class="line" d="M100 134 Q90 148 80 142 M100 134 Q110 148 120 142"/>
+        <path class="line" d="M52 126 L14 118 M52 136 L14 140 M148 126 L186 118 M148 136 L186 140"/>
+      </svg>
+    </div>
+  </header>
+
+  <section>
+    <h2>Giới thiệu</h2>
+    <p>Xin chào, mình là Quân. Mình đang học ngành Kỹ thuật phần mềm và đang tập viết những chương trình đầu tiên của riêng mình.</p>
+    <p>Mình muốn trở thành một lập trình viên viết code rõ ràng, dễ đọc và chạy đúng.</p>
+  </section>
+
+  <section>
+    <h2>Kỹ năng đang học</h2>
+    <ul>
+      <li>C, C++ và hợp ngữ (assembly)</li>
+      <li>HTML, CSS và JavaScript cơ bản</li>
+      <li>Git và GitHub</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Thú cưng yêu thích: mèo</h2>
+    <p>Mình thích mèo. Hãy rê chuột qua các thẻ bên dưới, hoặc bấm nút để biết thêm một điều thú vị về mèo.</p>
+    <div class="gallery">
+      <div class="card"><span class="emoji" aria-hidden="true">😺</span><h3>Tò mò</h3><p>Luôn muốn khám phá mọi ngóc ngách.</p></div>
+      <div class="card"><span class="emoji" aria-hidden="true">😴</span><h3>Ngủ giỏi</h3><p>Biết chỗ ấm nhất trong nhà.</p></div>
+      <div class="card"><span class="emoji" aria-hidden="true">🐟</span><h3>Thích cá</h3><p>Nghe tiếng mở hộp là chạy tới.</p></div>
+    </div>
+    <button id="fact-btn" class="btn" type="button">Cho mình một sự thật về mèo</button>
+    <p id="fact" class="fact" aria-live="polite">Bấm nút để xem.</p>
+  </section>
+
+  <section>
+    <h2>Liên hệ</h2>
+    <ul>
+      <li>GitHub: <a href="https://github.com/nbquan-beep">github.com/nbquan-beep</a></li>
+    </ul>
+  </section>
+
+  <footer>© 2026 Nguyễn Bảo Quân</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
